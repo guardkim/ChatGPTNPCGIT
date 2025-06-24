@@ -53,7 +53,7 @@
   },
   "4": {
     "inputs": {
-      "text": "lazypos,1girl, solo, long_hair, looking_at_viewer, blush, smile, bangs, shirt, black_hair, purple_eyes, jacket, white_shirt, upper_body, necktie, collared_shirt, belt, hair_bun, uniform, tree, military, window, military_uniform, arms_behind_back, shaded_face, black_necktie, rain, epaulettes, pocket, black_belt, breast_pocket, camouflage, grey_sky",
+      "text": "lazypos, 1girl, solo, long_hair, looking_at_viewer, blush, smile, bangs, shirt, black_hair, purple_eyes, jacket, white_shirt, upper_body, necktie, collared_shirt, belt, hair_bun, uniform, **detailed_face, expressive_eyes, subtle_blush, gentle_smile, long_flowing_hair, perfectly_tied_hair_bun, crisp_white_collared_shirt, neatly_knotted_black_necktie, fitted_military_jacket, polished_brass_buttons, gleaming_epaulettes, neatly_folded_breast_pocket, sturdy_black_belt_with_silver_buckle, formal_military_uniform, well-tailored_clothing, intricate_uniform_details, sharp_silhouette, professional_attire, elegant_posture, confident_stance, arms_clasped_behind_back, natural_lighting, soft_shadows_on_face, slightly_shaded_face_from_overcast_sky, rain_streaks_on_window, blurred_background, outdoor_setting, lush_green_tree_in_background, rain_soaked_foliage, distant_buildings_through_rain, overcast_grey_sky, stormy_weather, calm_expression_amidst_rain, serene_atmosphere, reflective_surfaces_from_rain, tranquil_scene, military_base_background, strategically_placed_trees, faint_camouflage_patterns_on_uniform, subtle_rain_effects_on_jacket, window_view_of_rainy_day, indoor_setting_with_view_outside**",
       "clip": [
         "2",
         0
