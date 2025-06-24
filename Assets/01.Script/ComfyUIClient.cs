@@ -23,7 +23,6 @@ public class ComfyUIClient : MonoBehaviour
         if (enableDebugLogs) Debug.Log($"🎨 이미지 생성 시작: {prompt}");
         
         string promptId = null;
-        
         // 1. 이미지 생성 요청
         yield return GenerateImageRequest(prompt, (id) => {
             promptId = id;
@@ -153,7 +152,7 @@ public class ComfyUIClient : MonoBehaviour
                 // 기존 프롬프트에서 사용자 입력 프롬프트를 앞에 추가
                 if (!string.IsNullOrEmpty(currentText))
                 {
-                    positiveNode["inputs"]["text"] = prompt + ", " + currentText;
+                    positiveNode["inputs"]["text"] = currentText + ", " + prompt;
                 }
                 else
                 {
