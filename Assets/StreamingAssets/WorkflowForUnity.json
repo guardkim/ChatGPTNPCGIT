@@ -25,7 +25,7 @@
     "inputs": {
       "seed": 255584308191391,
       "steps": 30,
-      "cfg": 3,
+      "cfg": 8,
       "sampler_name": "euler_ancestral",
       "scheduler": "karras",
       "denoise": 0.5500000000000002,
@@ -108,8 +108,8 @@
   },
   "8": {
     "inputs": {
-      "width": 512,
-      "height": 512,
+      "width": 1024,
+      "height": 1024,
       "batch_size": 1
     },
     "class_type": "EmptyLatentImage",

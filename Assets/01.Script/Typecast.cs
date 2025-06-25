@@ -18,7 +18,7 @@ public class SpeakRequestData
 
 public class Typecast : MonoBehaviour
 {
-    private const string VOICE_ID = "622964d6255364be41659078";
+    private const string VOICE_ID = "6335062fd260d463f7d7abb9";
 
     public Task<AudioClip> StartSpeechAsync(string text)
     {
