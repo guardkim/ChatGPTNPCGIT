@@ -320,8 +320,8 @@ public class ChatGPTTest : MonoBehaviour
         try
         {
             var request = new SpeechRequest(text);
-            // var speechClip = await _openAIClient.AudioEndpoint.GetSpeechAsync(request);
-            Task<AudioClip> speechClip = _typecast.StartSpeechAsync(request.);
+            var clip = await _openAIClient.AudioEndpoint.GetSpeechAsync(request);
+            Task<AudioClip> speechClip = _typecast.StartSpeechAsync(clip);
             
             MyAudioSource.PlayOneShot(await speechClip);
         }
